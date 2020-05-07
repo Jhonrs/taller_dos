@@ -1,110 +1,130 @@
 const products = [
     {
-        title: 'Zapato1',
+        title: 'Nike Blazer Mid 77 Vintage ',
         img: '',
         description: 'Zapatos',
         options: [],
         genre:'',
-        size:3,
+        size:[
+            30 , 31, 32, 33, 34
+        ],
         type:'clothes',
         color: 'black', 
         price: 500,
     },
     {
-        title: 'Zapato2',
+        title: 'Nike React Infinity Run Flyknit A.I.R.',
         img: '',
         description: 'Zapatos',
         options: [],
         genre:'',
-        size:3,
+        size:[
+            30 , 31, 32, 33, 34
+        ],
         type:'clothes',
         color: 'black',
         price: 500,
     },
     {
-        title: 'Zapato3',
+        title: 'Air Jordan 1 Mid SE',
         img: '',
         description: 'Zapatos',
         options: [],
         genre:'',
-        size:3,
+        size:[
+            30 , 31, 32, 33, 34
+        ],
         type:'clothes',
         color: 'black',
         price: 500,
     },
     {
-        title: 'Zapato4',
+        title: 'Nike SB Shane',
         img: '',
         description: 'Zapatos',
         options: [],
         genre:'',
-        size:3,
+        size:[
+            30 , 31, 32, 33, 34
+        ],
         type:'clothes',
         color: 'black',
         price: 500,
     },
     {
-        title: 'Zapato5',
+        title: 'KD Trey 5 VIII',
         img: '',
         description: 'Zapatos',
         options: [],
         genre:'',
-        size:3,
+        size:[
+            30 , 31, 32, 33, 34
+        ],
         type:'clothes',
         color: 'black',
         price: 500,
     },
     {
-        title: 'Zapato6',
+        title: 'Nike Air Force 1 07 SE',
         img: '',
         description: 'Zapatos',
         options: [],
         genre:'',
-        size:3,
+        size:[
+            30 , 31, 32, 33, 34
+        ],
         type:'clothes',
         color: 'black',
         price: 500,
     },
     {
-        title: 'Zapato7',
+        title: 'Nike Air Zoom Pegasus 37',
         img: '',
         description: 'Zapatos',
         options: [],
         genre:'',
-        size:3,
+        size:[
+            30 , 31, 32, 33, 34
+        ],
         type:'clothes',
         color: 'black',
         price: 500,
     },
     {
-        title: 'Zapato8',
+        title: 'Nike SB Charge Canvas',
         img: '',
         description: 'Zapatos',
         options: [],
         genre:'',
-        size:3,
+        size:[
+            30 , 31, 32, 33, 34
+        ],
         type:'clothes',
         color: 'black',
         price: 500,
     },
     {
-        title: 'Zapato9',
+        title: 'Nike Renew Rival',
         img: '',
         description: 'Zapatos',
         options: [],
         genre:'',
-        size:3,
+        size:[
+            30 , 31, 32, 33, 34
+        ],
         type:'clothes',
         color: 'black',
         price: 500,
     },
     {
-        title: 'Zapato10',
+        title: 'Nike Metcon 5',
         img: '',
         description: 'Zapatos',
         options: [],
         genre:'',
-        size:3,
+        size:[
+            30 , 31, 32, 33, 34
+        ],
         type:'clothes',
         color: 'black',
         price: 500,
@@ -115,7 +135,9 @@ const products = [
         description: 'Zapatos',
         options: [],
         genre:'',
-        size:3,
+        size:[
+            30 , 31, 32, 33, 34
+        ],
         type:'clothes',
         color: 'black',
         price: 500,
@@ -126,7 +148,9 @@ const products = [
         description: 'Zapatos',
         options: [],
         genre:'',
-        size:3,
+        size:[
+            30 , 31, 32, 33, 34
+        ],
         type:'clothes',
         color: 'black',
         price: 500,
@@ -137,7 +161,9 @@ const products = [
         description: 'Zapatos',
         options: [],
         genre:'',
-        size:3,
+        size:[
+            30 , 31, 32, 33, 34
+        ],
         type:'clothes',
         color: 'black',
         price: 500,
@@ -148,7 +174,9 @@ const products = [
         description: 'Zapatos',
         options: [],
         genre:'',
-        size:3,
+        size:[
+            30 , 31, 32, 33, 34
+        ],
         type:'clothes',
         color: 'black',
         price: 500,
@@ -159,7 +187,9 @@ const products = [
         description: 'Zapatos',
         options: [],
         genre:'',
-        size:3,
+        size:[
+            30 , 31, 32, 33, 34
+        ],
         type:'clothes',
         color: 'black',
         price: 500,
@@ -170,7 +200,9 @@ const products = [
         description: 'Zapatos',
         options: [],
         genre:'',
-        size:3,
+        size:[
+            30 , 31, 32, 33, 34
+        ],
         type:'clothes',
         color: 'black',
         price: 500,
@@ -181,7 +213,9 @@ const products = [
         description: 'Zapatos',
         options: [],
         genre:'',
-        size:3,
+        size:[
+            30 , 31, 32, 33, 34
+        ],
         type:'clothes',
         color: 'black',
         price: 500,
@@ -192,7 +226,9 @@ const products = [
         description: 'Zapatos',
         options: [],
         genre:'',
-        size:3,
+        size:[
+            30 , 31, 32, 33, 34
+        ],
         type:'clothes',
         color: 'black',
         price: 500,
@@ -203,7 +239,9 @@ const products = [
         description: 'Zapatos',
         options: [],
         genre:'',
-        size:3,
+        size:[
+            30 , 31, 32, 33, 34
+        ],
         type:'clothes',
         color: 'black',
         price: 500,
@@ -214,7 +252,9 @@ const products = [
         description: 'Zapatos',
         options: [],
         genre:'',
-        size:3,
+        size:[
+            30 , 31, 32, 33, 34
+        ],
         type:'clothes',
         color: 'black',
         price: 500,
