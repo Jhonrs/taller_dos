@@ -1,32 +1,47 @@
-<header>
-    <nav class="mainnav">
-        <div class="mainnav__logo">
-            <a href="/products">
-                <img src="" class="mainnav__logoimg" alt="">
+<div class="filters">
+    <select class="filters__sex">
+<option value="" disabled="true" selected="true">Sex</option>
+<option value="man">Man</option>
+<option value="woman">Woman</option>
+
+    </select>
+</div>
+
+<main>
+    <div class="content">
+        <div class="content__products">
+            {{#each products}}
+            <a href="/product/{{title}}/{{_id}}" class="shoes__link">
+                <div class="shoes">
+
+                    
+                        <img class="shoes__img" src="{{img}}" alt="">
+
+                    <div class="shoes__information">
+                        <div class="shoes__name">
+                            <h3>{{title}}</h3>
+                        </div>
+                        <div class="shoes__price">
+                            <h4>${{price}}</h4>
+                        </div>
+                        <div class="shoes__gender">
+                            <h4>{{gender}}</h4>
+                        </div>
+
+                        <button class="container__add">AÑADIR AL CARRITO</button>
+                        <a href="/product/{{title}}/{{id}}"></a>
+
+
+                    </div>
             </a>
+
         </div>
+        {{/each}}
+    </div>
+    </div>
+</main>
 
-        <nav class="mainnav__options">
-            <ul>
-                <li><a href="/products"></a>Catálogo</li>
-                <li><a href="/products"></a>Más vendido</li>
-                <li><a href="/products"></a>Ofertas</li>
-            </ul>
+<script src="/scripts/client.js"> </script>
 
-        </nav>  
-        <input type="search" class="mainnav__search" placeholder="Buscar...">
-        <div class="mainnav__user">
-            <img src="" alt="" class="mainnav__img">
-        </div>
 
-        <div class="mainnav__logo">
-            <div class="mainnav__scart">
-                <a href="/carro_de_compras"></a>
-            <img src="" alt="" class="mainnav__img">
-            <p class="mainnav__counterProducts"></p>
-            </div>
-        </div>
-
-    </nav>
-</header>
-
+    

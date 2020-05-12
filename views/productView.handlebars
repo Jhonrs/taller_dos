@@ -1,0 +1,42 @@
+<main>
+
+    <div class="container">
+
+        <img class="container__imgView" src="{{img}}" alt="">
+
+        <div class="container__infoView">
+            <div class="container__infoProduct">
+
+                <div class="container__name">
+                    <h2>{{title}}</h2>
+                </div>
+                <div class="container__price">
+                    <h4>{{price}}</h4>
+                </div>
+            </div>
+
+            <div class="container__anotheInfo">
+                <div class="container__size">
+                    <Select class"select__size">
+                        <option value="" disabled="true" selected="true">Size</option>
+
+                        {{#each size}}
+                        <option value="{{size}}"></option>
+                        {{/each}}
+                    </Select>
+
+                </div>
+                <div class="container__count"></div>
+            </div>
+
+            <button class="container__add">AÑADIR AL CARRITO</button>
+
+        </div>
+    </div>
+
+
+
+
+</main>
+
+<script src="/public/scripts/client.js"></script>
