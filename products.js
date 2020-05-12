@@ -1,10 +1,10 @@
 const products = [
     {
         title: 'Nike Blazer Mid 77 Vintage ',
-        img: '',
+        img: '/img/Nike Blazer Mid 77 Vintage.jpg',
         description: 'Zapatos',
         options: [],
-        genre:'',
+        gender:'man',
         size:[
             30 , 31, 32, 33, 34
         ],
@@ -14,10 +14,10 @@ const products = [
     },
     {
         title: 'Nike React Infinity Run Flyknit A.I.R.',
-        img: '',
+        img: '/img/Nike React Infinity Run Flyknit A.I.R.jpg',
         description: 'Zapatos',
         options: [],
-        genre:'',
+        gender:'man',
         size:[
             30 , 31, 32, 33, 34
         ],
@@ -27,10 +27,10 @@ const products = [
     },
     {
         title: 'Air Jordan 1 Mid SE',
-        img: '',
+        img: '/img/Air Jordan 1 Mid SE.jpg',
         description: 'Zapatos',
         options: [],
-        genre:'',
+        gender:'man',
         size:[
             30 , 31, 32, 33, 34
         ],
@@ -40,10 +40,10 @@ const products = [
     },
     {
         title: 'Nike SB Shane',
-        img: '',
+        img: '/img/Nike SB Shane.jpg',
         description: 'Zapatos',
         options: [],
-        genre:'',
+        gender:'man',
         size:[
             30 , 31, 32, 33, 34
         ],
@@ -53,10 +53,10 @@ const products = [
     },
     {
         title: 'KD Trey 5 VIII',
-        img: '',
+        img: '/img/KD Trey 5 VIII.jpg',
         description: 'Zapatos',
         options: [],
-        genre:'',
+        gender:'man',
         size:[
             30 , 31, 32, 33, 34
         ],
@@ -66,10 +66,10 @@ const products = [
     },
     {
         title: 'Nike Air Force 1 07 SE',
-        img: '',
+        img: '/img/Nike Air Force 1 07 SE.jpg',
         description: 'Zapatos',
         options: [],
-        genre:'',
+        gender:'woman',
         size:[
             30 , 31, 32, 33, 34
         ],
@@ -79,10 +79,10 @@ const products = [
     },
     {
         title: 'Nike Air Zoom Pegasus 37',
-        img: '',
+        img: '/img/Nike Air Zoom Pegasus 37.jpg',
         description: 'Zapatos',
         options: [],
-        genre:'',
+        gender:'woman',
         size:[
             30 , 31, 32, 33, 34
         ],
@@ -92,10 +92,10 @@ const products = [
     },
     {
         title: 'Nike SB Charge Canvas',
-        img: '',
+        img: '/img/Nike SB Charge Canvas.jpg',
         description: 'Zapatos',
         options: [],
-        genre:'',
+        gender:'woman',
         size:[
             30 , 31, 32, 33, 34
         ],
@@ -105,10 +105,10 @@ const products = [
     },
     {
         title: 'Nike Renew Rival',
-        img: '',
+        img: '/img/Nike Renew Rival.jpg',
         description: 'Zapatos',
         options: [],
-        genre:'',
+        gender:'woman',
         size:[
             30 , 31, 32, 33, 34
         ],
@@ -118,10 +118,10 @@ const products = [
     },
     {
         title: 'Nike Metcon 5',
-        img: '',
+        img: '/img/Nike Metcon 5.jpg',
         description: 'Zapatos',
         options: [],
-        genre:'',
+        gender:'woman',
         size:[
             30 , 31, 32, 33, 34
         ],
@@ -131,10 +131,10 @@ const products = [
     },
     {
         title: 'Zapato11',
-        img: '',
+        img: '/img/Nike React Infinity Run Flyknit A.I.R.jpg',
         description: 'Zapatos',
         options: [],
-        genre:'',
+        gender:'woman',
         size:[
             30 , 31, 32, 33, 34
         ],
@@ -144,10 +144,10 @@ const products = [
     },
     {
         title: 'Zapato12',
-        img: '',
+        img: '/img/Nike React Infinity Run Flyknit A.I.R.jpg',
         description: 'Zapatos',
         options: [],
-        genre:'',
+        gender:'man',
         size:[
             30 , 31, 32, 33, 34
         ],
@@ -157,10 +157,10 @@ const products = [
     },
     {
         title: 'Zapato13',
-        img: '',
+        img: '/img/Nike React Infinity Run Flyknit A.I.R.jpg',
         description: 'Zapatos',
         options: [],
-        genre:'',
+        gender:'man',
         size:[
             30 , 31, 32, 33, 34
         ],
@@ -170,10 +170,10 @@ const products = [
     },
     {
         title: 'Zapato14',
-        img: '',
+        img: '/img/Nike React Infinity Run Flyknit A.I.R.jpg',
         description: 'Zapatos',
         options: [],
-        genre:'',
+        gender:'man',
         size:[
             30 , 31, 32, 33, 34
         ],
@@ -183,10 +183,10 @@ const products = [
     },
     {
         title: 'Zapato15',
-        img: '',
+        img: '/img/Nike React Infinity Run Flyknit A.I.R.jpg',
         description: 'Zapatos',
         options: [],
-        genre:'',
+        gender:'man',
         size:[
             30 , 31, 32, 33, 34
         ],
@@ -196,10 +196,10 @@ const products = [
     },
     {
         title: 'Zapato16',
-        img: '',
+        img: '/img/Nike React Infinity Run Flyknit A.I.R.jpg',
         description: 'Zapatos',
         options: [],
-        genre:'',
+        gender:'man',
         size:[
             30 , 31, 32, 33, 34
         ],
@@ -209,10 +209,10 @@ const products = [
     },
     {
         title: 'Zapato17',
-        img: '',
+        img: '/img/Nike React Infinity Run Flyknit A.I.R.jpg',
         description: 'Zapatos',
         options: [],
-        genre:'',
+        gender:'man',
         size:[
             30 , 31, 32, 33, 34
         ],
@@ -222,10 +222,10 @@ const products = [
     },
     {
         title: 'Zapato18',
-        img: '',
+        img: '/img/Nike React Infinity Run Flyknit A.I.R.jpg',
         description: 'Zapatos',
         options: [],
-        genre:'',
+        gender:'man',
         size:[
             30 , 31, 32, 33, 34
         ],
@@ -235,10 +235,10 @@ const products = [
     },
     {
         title: 'Zapato19',
-        img: '',
+        img: '/img/Nike React Infinity Run Flyknit A.I.R.jpg',
         description: 'Zapatos',
         options: [],
-        genre:'',
+        gender:'man',
         size:[
             30 , 31, 32, 33, 34
         ],
@@ -248,10 +248,10 @@ const products = [
     },
     {
         title: 'Zapato20',
-        img: '',
+        img: '/img/Nike React Infinity Run Flyknit A.I.R.jpg',
         description: 'Zapatos',
         options: [],
-        genre:'',
+        gender:'man',
         size:[
             30 , 31, 32, 33, 34
         ],
