@@ -1,0 +1,364 @@
+.contentEs {
+  height: 700px;
+}
+.content__publicity {
+  display: flex;
+}
+.content__container {
+  background-color: #b8bcbd;
+  width: 100%;
+  height: 616px;
+  background-image: url("../img/BARRAS.svg");
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content__img {
+  background-image: url("../img/zapatillas.png");
+  background-size: cover;
+  width: 100%;
+  height: 616px;
+}
+
+.content__btn {
+  background-color: white;
+  width: 250px;
+  height: 80px;
+  margin: 450px 250px;
+  border-radius: 20px;
+}
+
+.content__title {
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 50px;
+}
+
+.content__button {
+  width: 140px;
+  height: 50px;
+  border-radius: 14px;
+  background-color: $container-color;
+  border: none;
+}
+
+.content__article {
+  display: flex;
+  width: 100%;
+  height: 180px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.content__articleproducts {
+  width: 330px;
+  height: 120px;
+  background-color: $container-color;
+  border-radius: 10px;
+  display: flex;
+}
+
+.content__articleproductsinfo {
+  width: 55%;
+}
+
+.content__texttitle {
+  font-size: 12px;
+  padding: 10px 20px;
+  text-align: initial;
+}
+
+.content__textinfo {
+  font-size: 11px;
+  padding: 0px 20px;
+  text-align: initial;
+  line-height: 30px;
+}
+
+.content__articleproductimage {
+  width: 45%;
+  height: 100%;
+  background-image: url("../img/zapatillas.png");
+  background-size: cover;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.content__feature {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.containerFeature__info {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content__containerFeature {
+  width: 350px;
+  height: 500px;
+  background-color: $container-color;
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+  margin: 0px 17px;
+  &--1 {
+    background-image: url(../img/flexibility.png);
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-size: 350px 700px;
+  }
+  &--2 {
+    background-image: url(../img/support.png);
+    width: 350px;
+    height: 500px;
+    margin: 0px;
+    background-size: 350px;
+  }
+  &--3 {
+    background-image: url(../img/ligth.png);
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-size: 350px 450px;
+  }
+}
+
+.feature__text {
+  text-align: center;
+  margin: 30px 20px;
+}
+
+.content__gallery {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.content__galleryTittle {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+.content__imgGallery {
+  margin-top: 40px;
+  width: 1100px;
+  height: 600px;
+  background-color: $container-color;
+  border-radius: 10px;
+  display: flex;
+}
+
+.content__imgGalleryitemcol1 {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content__imgGalleryitemcol2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.imgGallery--1 {
+  border-radius: 10px 0 0 0;
+}
+
+.imgGallery--2 {
+  height: 60%;
+}
+
+.imgGallery--3 {
+  height: 100%;
+  border-radius: 0 0 0 10px;
+}
+
+.imgGallery--4 {
+  height: 40%;
+}
+
+.imgGallery--5 {
+  height: 100%;
+  width: 100%;
+  border-radius: 0 10px 10px 0;
+}
+
+.content__specification {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.content__specificInfo {
+  width: 1100px;
+  height: 500px;
+  background-color: $container-color;
+  border-radius: 10px;
+  display: flex;
+}
+
+.container__specificImg {
+  width: 50%;
+  height: 100%;
+}
+
+.specific__Img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+}
+
+.specific__info {
+  margin: 100px 10px 10px 0px;
+  width: 50%;
+  text-align: center;
+  line-height: 60px;
+}
+
+.specific__text {
+  font-size: 20px;
+}
+
+.content__interaction {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.content__containerInt {
+  width: 1100px;
+  height: 500px;
+  background-color: $container-color;
+  border-radius: 10px;
+  display: flex;
+}
+
+.containerInt__Img {
+  width: 40%;
+  height: 100%;
+  margin: auto 40px;
+}
+
+.containerInt__options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.container__optionOne {
+  width: 100%;
+  height: 25%;
+  text-align: center;
+  margin-top: 80px;
+}
+.container__optionText {
+  font-size: 20px;
+}
+
+.container__color {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.btn__color {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+
+  &--1 {
+    background-color: #e11237;
+  }
+  &--2 {
+    background-color: gray;
+  }
+  &--3 {
+    background-color: black;
+  }
+  &--4 {
+    background-color: lightgrey;
+  }
+  &--5 {
+    background-color: #923758;
+  }
+  &--6 {
+    background-color: #5995a3;
+  }
+  &--7 {
+    background-color: #292453;
+  }
+}
+
+.container__optionTwo {
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.content__video {
+  display: flex;
+  width: 100%;
+  height: 700px;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.content__containerVideo {
+  width: 1100px;
+  height: 500px;
+  background-color: $container-color;
+  border-radius: 10px;
+  position: relative;
+}
+
+.containerVideo__trailer {
+  width: 1100px;
+  border-radius: 10px;
+}
+
+.containerVideo__trailerText {
+  position: absolute;
+  right: 0px;
+  bottom: 5%;
+  width: 400px;
+  height: 85px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px 0 0 10px;
+  background-color: $container-color;
+}
+
+.containerVideo__input {
+  position: absolute;
+  right: 0px;
+  margin-top: 45%;
+  width: 400px;
+  height: 20px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px 0 0 10px;
+  background-color: $container-color;
+}

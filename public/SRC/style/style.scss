@@ -1,0 +1,20 @@
+$container-color: #F5F5F5;
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+   
+}
+
+body{
+    background-image: url("../img/fondo.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+ 
+@import 'mainHeader';
+@import 'mainContent';
+@import 'mainFooter'; 

@@ -1,0 +1,51 @@
+.mainHeader{
+    display: flex;
+    background-color: #3E434D;
+    height: 70px;
+    
+    color: #C4C4C4;
+}
+
+.header__nav{
+    display: flex;
+    margin: auto;
+}
+
+.headerNav__logo{
+    width: 140px;
+    height: 35px;
+
+}
+
+.headerNav__menu{
+ margin-right: end;
+}
+
+.headerNav__link{
+    text-decoration: none;
+    color: #C4C4C4;
+    margin: 10px 70px;
+    font-size: 20px;
+}
+
+.headerNav__search{
+    display: flex;
+}
+.headerNav__input{
+    border-radius: 9px;
+    background-color: #3E434D;
+    width: 180px;
+    height: 30px;
+    margin-top: 5px;
+    
+}
+
+.headerNav__input::placeholder{
+ padding: 5px;
+}
+
+.headerNav__btnSearch{
+    width: 30px;
+    height: 30px;
+background-image: url(../img/Shape.svg);    margin: 5px;
+} 
