@@ -15,22 +15,37 @@
                 </div>
             </div>
 
-            <div class="container__anotheInfo">
+            <div class="container__anotherInfo">
                 <div class="container__size">
-                    <Select class"select__size">
+                    <Select class = "select__size">
                         <option value="" disabled="true" selected="true">Size</option>
 
                         {{#each size}}
-                        <option value="{{size}}"></option>
+                        <option value="{{this}}">{{this}}</option>
                         {{/each}}
                     </Select>
+                    
 
                 </div>
-                <div class="container__count"></div>
+                <div class="container__count">
+
+                     <Select class = "select__count">
+                        <option value="" disabled="true" selected="true">Count</option>
+
+                        
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                       
+                    </Select>
+                </div>
             </div>
 
-            <button class="container__add">AÑADIR AL CARRITO</button>
-
+            <button class="btn__add" data-title=""="{{title}}"
+            data-price="{{price}}"
+            data-id="{{_id}}"
+            data-img="{{img}}"
+            >AÑADIR AL CARRITO</button>
         </div>
     </div>
 
