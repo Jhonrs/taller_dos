@@ -1,63 +1,52 @@
-.mainnav{
-
-    width: 80%;
-    height: 70px;
-    margin: auto;
+.mainHeader{
     display: flex;
-    justify-content: space-between;
-}
-
-.mainnav__options{
-    display: none;
-}
-
-.mainnav__logo{
+    background-color: #3E434D;
     height: 70px;
-    float: left;
-    padding-top: 20px;
-    box-sizing: border-box;   
+    
+    color: #C4C4C4;
 }
 
-.mainnav__user{
-    height: 70px;
-    float: left;
-    padding-top: 20px;
-    box-sizing: border-box;
+.header__nav{
+    display: flex;
+    margin: auto;
 }
 
-.mainnav__Logoimg{
-    width: 150px;
-}
-
-.mainnav__search {
+.headerNav__logo{
+    width: 140px;
     height: 35px;
-    width: 30%;
-    margin: auto;
-    margin-left: 25px;
-    margin-right: 10px;
-    border-radius: 10px;
-    background: rgba(255, 255, 255, 0.301);
-    color: #fff;
-    border-style: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    padding-left: 10px;
-    font-family: "regular";
-    font-size: 17px;
-    box-shadow: none;
-    padding-right: 17px;
+
 }
 
-input.mainnav__search:focus {
-    outline-width: 0;
+.headerNav__menu{
+ margin-right: end;
 }
 
-::placeholder {
-    color: white;
+.headerNav__link{
+    text-decoration: none;
+    color: #C4C4C4;
+    margin: 10px 70px;
+    font-size: 20px;
 }
 
-.mainnav__img {
-    width: 32px;
-    margin: auto;
+.headerNav__search{
+    display: flex;
+}
+.headerNav__input{
+    border-radius: 9px;
+    background-color: #3E434D;
+    width: 180px;
+    height: 25px;
+    margin-top: 5px;
+    
+}
+
+.headerNav__input::placeholder{
+ padding: 5px;
+}
+
+.headerNav__btnSearch{
+    height: 25px;
+    border-radius: 5px;
+    width: auto;
     margin-left: 10px;
-}
+} 
