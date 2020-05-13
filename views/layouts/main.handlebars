@@ -5,11 +5,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shoes store</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="/styles/main.css">
 </head>
 
 <body>
-    {{{ body }}}
-</body>
 
+    <header class="mainHeader">
+        <nav class="header__nav">
+            <div class="headerNav__logo">
+                <img src="/img/Vector.svg" alt="">
+            </div>
+            <section class="headerNav__menu">
+                <a href="#" class="headerNav__link">Home</a>
+                <a href="#" class="headerNav__link"> Man </a>
+                <a href="#" class="headerNav__link"> Woman</a>
+                <a href="#" class="headerNav__link"> Kid</a>
+
+            </section>
+
+            <div class="headerNav__search">
+                <input type="text" class="headerNav__input" placeholder="Search">
+                <button class="headerNav__btnSearch">Buscar</button>
+            </div>
+            <div class="headernav__cart"> 
+                <img src="/img/Cart.svg" alt="">
+                <a href="/cart">
+                <button class="headernav__cartbtn"> 0 </button>
+                </a>
+            </div>
+
+        </nav>
+    </header>
+
+
+    {{{ body }}}
+
+    <footer class="footer">
+        <div class="footer__container">
+            <h3 class="footer__title">Nearby stores</h3>
+        </div>
+        <div class="footer__container">
+            <h3 class="footer__title">Get on with Nike</h3>
+        </div>
+        <div class="footer__container">
+            <h3 class="footer__title"> About Nike</h3>
+            <a href="#">News</a>
+            <a href="#">Jobs</a>
+            <a href="#">Investors</a>
+            <a href="#">Sustainability</a>
+
+        </div>
+
+        <div class="footer__socialmedia">
+            <a href="https://www.facebook.com/nike/" target="blank"> <img class="footer__icon" src="./img/Facebook.svg"
+                    alt=""></a>
+            <a href="https://twitter.com/Nike" target="blank"><img class="footer__icon" src="./img/Twitter.svg"
+                    alt=""></a>
+            <a href="https://www.instagram.com/nike/?hl=es-la" target="blank"><img class="footer__icon"
+                    src="./img/Instagram.svg" alt=""></a>
+            <a href="https://www.youtube.com/user/nike" target="blank"><img class="footer__icon" src="./img/Youtube.svg"
+                    alt=""></a>
+        </div>
+
+    </footer>
+</body>
+<script src="/scripts/cart.js"></script>
 </html>
