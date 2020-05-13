@@ -16,7 +16,4 @@ button.addEventListener('click', function () {
     location.href = url;
 });
 
-Handlebars.registerHelper("log", function(something) {
-    console.log(something);
-  });
 
