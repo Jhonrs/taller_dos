@@ -1,6 +1,18 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url("/img/fondo.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 @import 'mainHeader';
+@import 'mainContent';
+@import 'mainFooter';
