@@ -26,7 +26,7 @@ function configureRoutes(app, db) {
             var context = docs[0];
 
             //Renderizar vista
-            
+            console.log(docs[0].size);
             res.render('productView', context);
 
         });
@@ -81,6 +81,9 @@ function configureRoutes(app, db) {
         });
     });
 
+    app.get('/cart',function(req, res ){
+        res.render('cart');
+    });
 
 }
 module.exports = configureRoutes;
