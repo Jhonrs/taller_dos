@@ -1,8 +1,8 @@
 <div class="filters">
     <select class="filters__sex">
-<option value="" disabled="true" selected="true">Sex</option>
-<option value="man">Man</option>
-<option value="woman">Woman</option>
+        <option value="" disabled="true" selected="true">Sex</option>
+        <option value="man">Man</option>
+        <option value="woman">Woman</option>
 
     </select>
 </div>
@@ -11,11 +11,11 @@
     <div class="content">
         <div class="content__products">
             {{#each products}}
-            <a href="/product/{{title}}/{{_id}}" class="shoes__link">
-                <div class="shoes">
+            <div class="shoes">
 
-                    
-                        <img class="shoes__img" src="{{img}}" alt="">
+                <a href="/product/{{title}}/{{_id}}" class="shoes__link">
+
+                    <img class="shoes__img" src="{{img}}" alt="">
 
                     <div class="shoes__information">
                         <div class="shoes__name">
@@ -28,12 +28,15 @@
                             <h4>{{gender}}</h4>
                         </div>
 
-                        <button class="container__add">AÑADIR AL CARRITO</button>
-                        <a href="/product/{{title}}/{{id}}"></a>
 
 
-                    </div>
-            </a>
+                </a>
+
+            </div>
+            <button class="btn__add btn__add--position" class="btn__add" data-title=""="{{title}}"
+            data-price="{{price}}"
+            data-id="{{_id}}"
+            data-img="{{img}}">AÑADIR AL CARRITO</button>
 
         </div>
         {{/each}}
@@ -42,6 +45,3 @@
 </main>
 
 <script src="/scripts/client.js"> </script>
-
-
-    
